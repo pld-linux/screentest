@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/System
 Source0:	ftp://ftp.fi.muni.cz/pub/linux/people/jan_kasprzak/screentest/%{name}-%{version}.tar.gz
+# Source0-md5:	c44d3f97874f0675b6c31cd1191f9871
 URL:		http://www.fi.muni.cz/~kas/screentest/
 BuildRequires:	XFree86-devel
 BuildRequires:	autoconf
