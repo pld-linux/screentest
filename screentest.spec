@@ -13,7 +13,6 @@ BuildRequires:	automake
 BuildRequires:	gtk+-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
 
 %description
 Screentest is a simple program which displays various patterns
