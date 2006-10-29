@@ -2,18 +2,16 @@ Summary:	The CRT screen quality testing utility
 Summary(pl):	Narzêdzie do testowania jako¶ci wy¶wietlacza CRT
 Name:		screentest
 Version:	1.0
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications/System
 Source0:	ftp://ftp.fi.muni.cz/pub/linux/people/jan_kasprzak/screentest/%{name}-%{version}.tar.gz
 # Source0-md5:	c44d3f97874f0675b6c31cd1191f9871
 URL:		http://www.fi.muni.cz/~kas/screentest/
-BuildRequires:	XFree86-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	gtk+-devel
+BuildRequires:	gtk+-devel >= 1.2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
 
 %description
 Screentest is a simple program which displays various patterns
@@ -29,7 +27,6 @@ okre¶lenia jego jako¶ci (ostro¶æ, liniowo¶æ itp).
 %setup -q
 
 %build
-rm -f missing
 %{__aclocal}
 %{__autoconf}
 %{__autoheader}
@@ -48,5 +45,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README ChangeLog NEW_TESTS NEWS AUTHORS
-%attr(755,root,root) %{_bindir}/*
+%doc AUTHORS ChangeLog NEWS NEW_TESTS README
+%attr(755,root,root) %{_bindir}/screentest
