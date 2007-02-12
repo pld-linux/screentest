@@ -1,5 +1,5 @@
 Summary:	The CRT screen quality testing utility
-Summary(pl.UTF-8):   Narzędzie do testowania jakości wyświetlacza CRT
+Summary(pl.UTF-8):	Narzędzie do testowania jakości wyświetlacza CRT
 Name:		screentest
 Version:	1.0
 Release:	3
