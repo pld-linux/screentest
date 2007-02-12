@@ -1,5 +1,5 @@
 Summary:	The CRT screen quality testing utility
-Summary(pl):	Narz�dzie do testowania jako�ci wy�wietlacza CRT
+Summary(pl.UTF-8):   Narzędzie do testowania jakości wyświetlacza CRT
 Name:		screentest
 Version:	1.0
 Release:	3
@@ -18,10 +18,10 @@ Screentest is a simple program which displays various patterns
 (colors, circles, grids, text) on your screen in order to allow you to
 evaluate the quality of your CRT monitor (sharpness, linearity, etc).
 
-%description -l pl
-Screentest jest prostym programem wy�wietlaj�cym r�ne wzory (kolory,
-okr�gi, siatki, tekst) na twoim wy�wietlaczu CRT w celu umo�liwienia
-okre�lenia jego jako�ci (ostro��, liniowo�� itp).
+%description -l pl.UTF-8
+Screentest jest prostym programem wyświetlającym różne wzory (kolory,
+okręgi, siatki, tekst) na twoim wyświetlaczu CRT w celu umożliwienia
+określenia jego jakości (ostrość, liniowość itp).
 
 %prep
 %setup -q
