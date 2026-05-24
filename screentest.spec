@@ -2,7 +2,7 @@ Summary:	The CRT screen quality testing utility
 Summary(pl.UTF-8):	Narzędzie do testowania jakości wyświetlacza CRT
 Name:		screentest
 Version:	1.0
-Release:	3
+Release:	4
 License:	GPL
 Group:		Applications/System
 Source0:	ftp://ftp.fi.muni.cz/pub/linux/people/jan_kasprzak/screentest/%{name}-%{version}.tar.gz
